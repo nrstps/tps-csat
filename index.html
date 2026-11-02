@@ -106,7 +106,7 @@ function cover() {
   return `<div class="cover"><img class="big" src="logo.png" alt="Tipping Point Solution">`
    + (CLIENT ? `<p><span class="tag">${esc(CLIENT)}</span></p>` : "")
    + `<h1>Thank you for letting us be your solution</h1>`
-   + `<p>${L(["บอกเราหน่อยว่าเราทำได้ดีแค่ไหน และอะไรที่ควรทำให้ดีขึ้น ใช้เวลาราว 3 นาที ส่วนใหญ่เป็นการกดเลือก","Tell us how we are doing and what we can do better. It takes about 3 minutes, mostly taps."])}</p></div>`;
+   + `<p>${L(["บอกเราหน่อยว่าเราทำได้ดีแค่ไหน และอะไรที่ควรทำให้ดีขึ้น","Tell us how we are doing and what we can do better. It takes about 3 minutes, mostly taps."])}</p></div>`;
 }
 function fitCover() {
   const h = document.querySelector(".cover h1"); if (!h) return;
